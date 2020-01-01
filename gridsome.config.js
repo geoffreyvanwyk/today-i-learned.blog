@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Today I Learned',
-  siteDescription: 'My personal blog about new things I learn in computer science and other fields.',
+  siteDescription: 'My personal blog about new things I learn in computer science and other fields',
   siteUrl: 'https://www.today-i-learned.blog',
 
   templates: {

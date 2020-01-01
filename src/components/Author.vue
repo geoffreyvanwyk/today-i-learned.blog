@@ -8,12 +8,17 @@
 		</h1>
 
 		<p class="author__intro">
-			A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
+			{{ $static.metadata.siteDescription }}
 		</p>
 
 		<p class="author__links">
-			<a href="//twitter.com/gridsome">Follow on Twitter</a>
-			<a href="//github.com/gridsome/gridsome-starter-blog">GitHub</a>
+			<a href="//twitter.com/jsmonarch" title="Follow me on Twitter" target="_blank" >
+				<font-awesome :icon="['fab', 'twitter']"/>
+			</a>
+
+			<a href="//github.com/systemovich" title="Follow me on GitHub" target="_blank" >
+				<font-awesome :icon="['fab', 'github']"/>
+			</a>
 		</p>
 
 	</div>
@@ -23,6 +28,7 @@
 query {
   metadata {
     siteName
+	siteDescription
   }
 }
 </static-query>
